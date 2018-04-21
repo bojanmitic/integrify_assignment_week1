@@ -1,0 +1,111 @@
+
+body{
+    font-family: Helvetica Neue;
+    margin:0px;
+}
+
+header{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+    margin: auto;
+}
+li  {
+    float: right;
+    margin:3px;
+    background:linear-gradient(to top, #D8D8D8, #F5F5F5);
+    border-radius: 5px;
+    width: 130px;
+}
+
+li a {
+    display: block;
+    color: #2C4E5D;
+    padding: 3px  10px;
+    text-decoration: none;
+    text-align: center;
+}
+li a.active{
+    background-color: #365B67;
+    color: white;
+    border-radius: 5px;
+}
+#bussiness{
+    width: 500px;
+}
+header{
+    height:220px;
+    
+}
+#images{
+    display:flex;
+    margin-top: 60px;
+    background:linear-gradient(to top, #BAD2D9, #E4E8EB);
+    z-index: 1;
+    border: 1px double #EBEAEF;
+}
+#textUnderImage {
+    position: absolute;
+    top:500px;
+}
+.roundImg {
+    border-radius: 50%;
+    border: double grey;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}
+.lineHeightHeading{
+    line-height: 0.2;
+   
+}
+.lineHeightParagraph{
+    line-height: 1.5;
+    
+}
+a{
+    color:#2C4F5B;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 30px;
+}
+h6{
+    text-align: center;
+}
+.whiterText{
+    color:#D7C3B3;
+}
+.dottedBorder{
+    border-bottom: 1px dotted #2C4F5B;
+}
+#mainDiv{
+    display: flex;
+    text-align: justify;
+}
+#firstRow{
+    width: 25%;
+}
+#secondRow{
+    width: 50%;
+}
+#discussion{
+    display:flex;
+}
+#thirdRow{
+    width: 25%;
+}
+.wordSpacing{
+    word-spacing: 10px;
+}
+#footer{
+    display:flex;
+    background-color: #F5F5F5;
+    margin:auto;
+}
+#copyRight{
+    background-color: #F5F5F5;
+    text-align: center; 
+    margin:auto;
+}
+
